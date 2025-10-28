@@ -1,0 +1,5 @@
+# === Librerías necesarias para el sistema de comunicación IoT ===
+paho-mqtt==1.6.1     # Cliente MQTT (publicar y suscribirse)
+pyserial==3.5         # Comunicación con ESP32 por puerto serial
+requests==2.31.0      # (opcional) para futuras conexiones REST
+python-dotenv==1.0.1  # (opcional) manejo de variables de entorno
